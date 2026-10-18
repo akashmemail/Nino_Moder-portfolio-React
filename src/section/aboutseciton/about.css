@@ -1,0 +1,76 @@
+.company {
+  text-align: center;
+  letter-spacing: 7px;
+  word-spacing: 20px;
+}
+.aboutCard {
+  background-color: black !important;
+  color: white !important;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+
+  gap: 20px;
+  font-weight: 700;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  color: #123f36;
+  animation: list 15s linear infinite;
+}
+
+.sectionabout {
+  display: flex;
+  justify-content: space-around;
+}
+.sectionaboutText p {
+  width: 900px;
+  font-size: 1.5rem;
+}
+.years {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+@keyframes list {
+  form {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .list {
+    font-size: 2rem;
+    display: none;
+  }
+  .sectionabout {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionaboutText {
+    width: auto;
+  }
+  .sectionaboutText p {
+    font-size: 20px;
+    width: auto;
+  }
+  .years {
+    display: flex;
+    flex-direction: column;
+  }
+  .about {
+    font-size: 1rem;
+    width: auto;
+  }
+  .years {
+    display: flex;
+    flex-direction: column;
+  }
+}

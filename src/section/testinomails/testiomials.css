@@ -1,0 +1,29 @@
+.testinomia {
+  display: flex;
+  gap: 20px;
+}
+.testinImage img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 10px;
+}
+.testinImage {
+  margin-top: 50px;
+  transition: all 1s ease;
+}
+
+.testinHeder {
+  margin-top: 100px;
+}
+.testinHeder h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.testingCards {
+  gap: 20px;
+}
+
+.testinImage:hover {
+  border: 3px solid red;
+}

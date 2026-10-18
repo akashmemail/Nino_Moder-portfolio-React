@@ -1,0 +1,34 @@
+.aboutCards {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 20px;
+  gap: 30px;
+  background-color: cornsilk;
+}
+.aboutCard1 h5 {
+  background-color: black !important;
+  padding: 10px;
+  color: white;
+  width: 130px;
+  border-radius: 20px;
+  margin: 10px;
+  font-size: 15px;
+}
+.aboutCard1 h1 {
+  font-weight: 800;
+  padding: 20px;
+}
+.aboutCard1 p {
+  padding: 20px;
+}
+.aboutCard1 h6 {
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .aboutCard1 h1 {
+    font-size: 1rem;
+  }
+  .aboutCard1 {
+    display: none;
+  }
+}

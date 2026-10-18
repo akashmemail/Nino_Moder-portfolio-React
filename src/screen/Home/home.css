@@ -1,0 +1,65 @@
+.homeImage img {
+  transform: rotate(15deg);
+  transition: all 1s ease;
+}
+.homeImage img {
+  width: 400px;
+  height: 500px;
+  margin-top: -15%;
+  border-radius: 20px;
+  border-radius: 2px solid white;
+}
+.homeImage img:hover {
+  transform: rotate(0deg);
+}
+.homebutton button {
+  padding: 15px 40px;
+  background-color: black;
+  color: aliceblue;
+  transition: all 1s ease;
+  margin-top: 40px;
+}
+.homebutton button:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+.nino {
+  font-size: 9rem;
+  text-align: center;
+  font-weight: 600;
+}
+.ninowal {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .homeImage img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+  .nino {
+    font-size: 2rem;
+  }
+  .revies {
+    font-size: 20px;
+  }
+  .revies h5 {
+    font-size: 15px;
+  }
+  .ninowal {
+    display: flex;
+    flex-direction: column;
+  }
+  .homebutton h5 {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .homebutton button {
+    width: 200px;
+    padding: auto;
+    margin-bottom: 20px;
+  }
+}

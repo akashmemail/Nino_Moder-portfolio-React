@@ -1,0 +1,34 @@
+.Emaigsection {
+  background-color: black !important;
+  padding: 40px;
+}
+.EmaigsectionCard {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  transition: all 2s ease;
+}
+.Emaigesectiontitle {
+  font-size: 2rem;
+  color: white;
+  font-family: cursive;
+
+  transform: rotate(-3deg);
+  margin-bottom: 30px;
+}
+
+.imageImg {
+  padding: 20px;
+  background-color: black;
+  border: none;
+  transition: all 2s ease;
+}
+.imageImg:hover {
+  transform: scale(0.9);
+}
+.Emaigsectionimage {
+  transition: all 2s ease;
+}
+.Emaigsectionimage:hover {
+  transform: scale(0.9);
+}

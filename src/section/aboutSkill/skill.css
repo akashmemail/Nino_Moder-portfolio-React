@@ -1,0 +1,40 @@
+.skillcards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+
+  margin-top: 50px;
+}
+
+.skillcards img {
+  width: 50px;
+  text-align: center;
+}
+.SKILLIMG {
+  background-color: white;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.skillhedingh h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px) {
+  .skillhedingh h1 {
+    font-size: 2rem;
+  }
+  .skillcards {
+    display: flex;
+    flex-direction: column;
+  }
+}

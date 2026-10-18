@@ -1,0 +1,55 @@
+.servicCard {
+  display: flex;
+  gap: 40px;
+}
+.sectionservice {
+  margin: 30px;
+}
+.sericCardicon {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.servictext {
+  margin-top: 50px;
+  color: #a82020;
+}
+.BrandCard {
+  background-color: #fff4f4;
+}
+.servicesBrand h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.sericCardicon h1 {
+  font-weight: 700;
+}
+.sericCardicon i {
+  font-size: 3rem;
+  transition: all 1s ease;
+}
+.sericCardicon :hover i {
+  transform: rotate(-30deg);
+}
+@media (max-width: 768px) {
+  .servicCard {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .servicesBrand h1 {
+    font-size: 0.8rem;
+  }
+  .sericCardicon i {
+    font-size: 1rem;
+  }
+  .sericCardicon {
+    margin: 0;
+  }
+  .sericCardicon h1 {
+    font-size: 1rem;
+  }
+  .servictext p {
+    font-size: 15px;
+  }
+}
